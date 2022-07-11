@@ -12,7 +12,7 @@ terraform {
 
 output "DREAM_CLOUD_API_AUDIENCE" {
   sensitive = true
-  value     = "https://${var.dream_project_id}.${var.dream_workspace}"
+  value     = "https://dream-cloud-api-poc.${var.dream_workspace}"
 }
 
 output "DREAM_CLOUD_API_URL" {
